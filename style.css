@@ -1,0 +1,54 @@
+body{
+    text-align: center;
+    font-family: Times New Roman;
+    background-image: url(wall.jpg);
+    
+    color:black;
+
+
+}
+
+h1{
+	color: black;
+	font-family: Times New Roman;
+	font-weight: 100;
+	font-size: 70px;
+	padding-top: 130px;
+	padding-bottom: 30px;
+	text-shadow: 2px 2px 2px gray;
+	margin-bottom:15px;
+}
+
+p{
+	font-size: 20px;
+	padding-bottom: 20px;
+}
+
+.botao{
+	text-decoration: none;
+	background-color: black;
+	color: white;
+	font-size: 20px;
+	padding: 10px 15px 10px 15px;
+	border-radius: 4px;
+}
+
+.botao:hover{
+	background-color: grey;
+}
+
+.lista{
+	list-style: none;
+	padding-left: 0;
+	margin-top: 150px;
+}
+
+.lista li{
+	display: inline;
+}
+
+.lista a{
+	color:black;
+	font-size: 15px;
+	letter-spacing: 5px;
+}
